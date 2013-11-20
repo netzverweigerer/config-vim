@@ -1,0 +1,8 @@
+support for reading vimrc from ~/.vim/vimrc was introduced in version 7.4 of
+vim.
+
+if you want your vimrc to reside in .vim directory in versions 7.3 and below,
+create a symlink to ~/.vimrc and you should be good to go.
+
+on a mac, version 7.4 or above should be available from homebrew.
+
